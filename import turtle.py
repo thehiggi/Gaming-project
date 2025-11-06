@@ -13,3 +13,7 @@ left_pad.penup()
 left_pad.goto(-450,0)
 
 screen.mainloop()
+
+hgrieghirghighb
+
+dfojbhjfabvkjb
