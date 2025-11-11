@@ -22,6 +22,16 @@ right_pad.penup()
 right_pad.goto(450,0)
 right_pad.shapesize(stretch_len=1,stretch_wid=5)
 
+#creation of the ball
+ball = turtle.Turtle()
+ball.shape("circle")
+ball.color("white")
+ball.penup()
+ball.goto(0,0)
+#these last two lines for ball are basically the movement speed
+#the numbers represent the amount of space moved in each update
+ball.dx=5
+ball.dy=-5
 
 #this just keeps the screen open instead of instantly closing
 screen.mainloop()
