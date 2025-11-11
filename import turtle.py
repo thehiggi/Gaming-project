@@ -33,5 +33,5 @@ ball.goto(0,0)
 ball.dx=5
 ball.dy=-5
 
-#this just keeps the screen open instead of instantly closing
+#this just keeps the screen open instead of instantly closing (remove in final product after main game loop is created)
 screen.mainloop()
