@@ -28,6 +28,7 @@ ball.shape("circle")
 ball.color("white")
 ball.penup()
 ball.goto(0,0)
+ball.speed(4)
 #these last two lines for ball are basically the movement speed
 #the numbers represent the amount of space moved in each update
 ball.dx=5
